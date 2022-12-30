@@ -1,0 +1,28 @@
+.box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box .picture img {
+  border-radius: 5%;
+  width: 500px;
+  height: 500px;
+}
+.box .picture .tooltip p {
+  background-color: bisque;
+}
+.box .picture .tooltip a {
+  text-decoration: none;
+}
+.box .big-name, .box .name {
+  font-size: 25px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box .name {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
